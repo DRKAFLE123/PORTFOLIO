@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(45deg, #6f42c1, #d63384, #ffc107);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+nav {
+    margin-top: 1rem;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: rgb(8, 0, 15);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 1px 1px 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    color: #6f42c1;
+    margin-bottom: 1.5rem;
+}
+
+section h3 {
+    text-shadow:1px 0px 1px;
+}
+/* Skills Section */
+section#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#skills ul li {
+    background-color: #ffc107;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #343a40;
+}
+
+/* Projects Section */
+.project {
+    background-color: #d63384;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    color: white;
+    border-radius: 5%;
+}
+
+.project a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+
+    background-color: #a40bac;
+    color: white;
+    padding: 2rem 0;
+    border-radius: 35px;
+  
+}
+
+#contact h2{
+    text-shadow: 1px 1px 0px ;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #dcebc4;
+    text-decoration: none;
+}
+
+#contact p{
+    padding-left: 20px;
+    
+    color: #dcebc4;
+    text-decoration: none;
+}
+
+#contact a {
+   
+    color: #ffc107;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Resume Button Styles */
+.resume-button {
+    
+    background-color: #6f42c1; /* Purple background */
+    color: white; /* White text */
+    padding: 0.75rem 1.5rem; /* Increased padding for better size */
+    border-radius: 35px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold; /* Bold text */
+    border: 3px solid #ffc107; /* Yellow border */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.resume-button:hover {
+    background-color: #ff0707; /* Yellow background on hover */
+    color: #343440; /* Dark text on hover */
+    border-color: #6f42c1; /* Purple border on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
